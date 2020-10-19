@@ -1,0 +1,79 @@
+@media (max-width: 1050px) {
+    .intro {
+        .about {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .projects {
+        .project-wrapper {
+            .project {
+                h4 {
+                    font-size: 16px;
+                }
+                a {
+                    font-size: 14px;
+                    padding: 5px;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }      
+        }
+    }
+    .skills {
+        .skill-intro {
+            font-size: 14px;
+        }
+        .skill-description {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .personality {
+        p {
+            font-size: 14px;
+        }
+    }
+    .jorney {
+        .course-description {
+            .course-link {
+                font-size: 14px;
+                padding: 5px 20px;
+            }
+        }
+    }
+    .nav-item {
+        margin: 10px 15px;
+        a {
+            font-size: 14px;           
+        }
+    }
+    .container {
+        padding-top: 35px;
+    }
+    .footer {
+        padding: 10px 20px;
+        .contact-section {
+            .contacts {
+                .item {
+                    margin-bottom: 10px;
+                    p {
+                        margin-right: 10px;
+                        font-size: 12px;
+                    }
+                    i {
+                        font-size: 15px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .copyright {
+                font-size: 14px;
+                margin-top: 8px;
+            }
+        }
+    }
+}

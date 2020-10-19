@@ -1,0 +1,124 @@
+@media (max-width: 575px) {
+    p {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 13px !important;
+    }
+
+    .projects {
+        .project-wrapper {
+            &:first-of-type {
+                .project {
+                    .img-container {
+                        img {
+                            height: auto;
+                        }
+                    }    
+                }    
+            }
+            .project {
+                .img-container {
+                    width: 95%;
+                    margin: 0px auto;
+                    img {
+                        height: auto;
+                    }
+                }
+                a {
+                    width: 100%;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+            }
+        }   
+    }
+
+    .intro {
+        .img-wrapper {
+            width: 100%;
+        }
+    }
+
+    .nav-item {
+        margin: 6px 8px;
+        a {
+            font-size: 12px;
+            padding: 10px 5px;
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .personality {
+        h3 {
+            text-align: center;
+            &:after {
+                width: 100px;
+                margin: 0px auto;
+            }
+        }
+    }
+
+    .nav-items {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .skills {
+        .skills-titles {
+            .title {
+                padding: 10px 8px;
+                p {
+                    font-size: 10px !important;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+            }
+        }   
+        .skill-description {
+            p {
+                i {
+                    font-size: 16px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .jorney {
+        .course-description {
+            margin-left: 15px;
+            h4 {
+                font-size: 14px;
+            }
+            ul {
+                li {
+                    font-size: 12px;
+                }
+            }
+            .course-link {
+                padding: 5px 10px;
+                font-size: 12px;
+            }
+        }
+        .intensity {
+            p {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .footer {
+        .contact-section {
+            .contacts {
+                .item {
+                    p {
+                        margin-left: 5px;
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }   
+    }
+}

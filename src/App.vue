@@ -1,32 +1,37 @@
+
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="app">
+        <Navigation />
+        
+        <div class="container">
+            <transition name="fade">
+                <router-view v-if="loaded" />
+            </transition>
+        </div>
+        <Footer />
     </div>
-    <router-view/>
-  </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
 
-#nav {
-  padding: 30px;
+import Footer from '@/components/Footer';
+import Navigation from '@/components/Navigation';
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+export default {
+    data() {
+        return {
+            loaded: false,
+        }
+    },
+    created() {
+        setTimeout(() => {
+            this.loaded = true;
+        }, 200)
+    },
+    components: {
+        Footer,
+        Navigation
     }
-  }
 }
-</style>
+
+</script>

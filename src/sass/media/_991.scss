@@ -1,0 +1,89 @@
+@media (max-width: 991px) {
+    .projects {
+        .project-wrapper {
+            margin-bottom: 45px;
+            &:nth-child(3) {
+                margin-bottom: 0px;
+            }
+            &:nth-child(4) {
+                margin-bottom: 0px;
+            }
+            .project {
+                padding: 0px;
+                .img-container {
+                    img {
+                        height: 200px;
+                    }
+                }
+                h4 {
+                    font-size: 22px;
+                }
+                p {
+                    font-size: 16px;
+                    flex-grow: 1;
+                }
+                a {
+                    padding: 10px;
+                    font-size: 16px;
+                }
+            }
+        }   
+    }
+    .preview-container {
+        .inner-container {
+            max-height: 90vh;
+            max-width: 80%;
+            width: auto;
+            .image-wrapper {
+                min-height: auto;
+            }
+        }
+    }
+
+    .skills {
+        .skill-intro {
+            font-size: 16px;
+        }
+        .skill-description {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+    .personality {
+        p {
+            font-size: 16px;
+        }
+    }
+    .jorney {
+        .course-description {
+            .course-link {
+                font-size: 16px;
+                padding: 10px 30px;
+            }
+        }
+    }
+    
+    .footer {
+        padding: 10px 20px;
+        .contact-section {
+            .contacts {
+                .item {
+                    margin-bottom: 10px;
+                    p {
+                        margin-right: 10px;
+                        font-size: 12px;
+                    }
+                    i {
+                        font-size: 15px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .copyright {
+                font-size: 14px;
+                margin-top: 8px;
+            }
+        }
+    }
+}

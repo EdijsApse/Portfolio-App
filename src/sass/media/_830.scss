@@ -1,0 +1,17 @@
+@media (max-width: 830px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        .contact-section {
+            margin-top: 10px;
+            .contacts {
+                .item {
+                    justify-content: center !important;
+                }
+            }
+            .copyright {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

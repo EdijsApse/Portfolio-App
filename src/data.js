@@ -16,7 +16,7 @@ export const skills = [
     },
     {
         title: 'SQL',
-        description: 'Know how relations works. Can write simple querys and join diferent tables together using foreign keys. Have basic understanding of indexes.',
+        description: 'Know how relations works. Can write simple queries and join different tables together using foreign keys. Have basic understanding of indexes.',
         level: 2
     }
 ];

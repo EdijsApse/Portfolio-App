@@ -33,7 +33,6 @@ export default {
     },
     methods: {
         closePreview() {
-            this.images = [];
             this.active = 0;
             this.$emit('closed')
         }
